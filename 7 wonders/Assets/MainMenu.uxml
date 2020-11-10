@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:IMGUIContainer name="background" style="background-image: url(&apos;/Assets/Scenes/kheops_pyramide.jpg&apos;); -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgba(255, 255, 255, 255); height: 433px; width: 650px;">
+        <ui:Label text="Label" name="Label" />
+    </ui:IMGUIContainer>
+    <ui:ListView focusable="True" name="ListView" />
+</ui:UXML>
