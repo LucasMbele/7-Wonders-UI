@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class CivilianCards : CardData
 {
     // Start is called before the first frame update
-    public override void change_color()
+    public override Color change_color()
     {
-        color.GetComponent<Image>().color = new Color32(0,191,255,255);
+      return  new Color32(0,191,255,255);
     }
 }

@@ -10,23 +10,32 @@ using TMPro;
 public class CardDisplay : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragHandler
 {
     //Si nous sommes au cours du premier age alors on choisi
-    //public Card[] card;
+    public CardData card;
 
     //On parcourt tous les types de cartes
 
-    //public List<CardRawMaterials> cardRaw;
+   // public List<CardData> cardRaw;
 
-    //public TextMeshPro nameText;
-    //public Image effect;
 
-    //public Image costeffect;
-    public GameObject originalcard;
+    
+
+    public TextMeshProUGUI nameText;
+    public Image effect;
+
+    public Image costeffect;
+    //public GameObject originalcard;
     //Start is called before the first frame update
     void Start()
     {
        // GameObject cardClone = Instantiate(originalcard,new Vector3(125,0,0),Quaternion.identity);
       
-     CreateCards(7);
+    // CreateCards(7);
+    //nameText = GetComponent<TextMeshPro>();
+    nameText.text = card.cardname;
+    effect.sprite = card.effect;
+    costeffect.sprite = card.costeffect;
+  
+    this.GetComponent<Image>().color = card.change_color();
     }
     
     void Update()
@@ -38,7 +47,7 @@ public class CardDisplay : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDra
     {
       for (int i = 0; i < number; i++)
        {
-         Instantiate(originalcard,new Vector3(i,originalcard.transform.position.y,i),originalcard.transform.rotation);
+//Instantiate(originalcard,new Vector3(i,originalcard.transform.position.y,i),originalcard.transform.rotation);
        }
     }
     

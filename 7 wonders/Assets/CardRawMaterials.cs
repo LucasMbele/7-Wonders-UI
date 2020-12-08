@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class CardRawMaterials : CardData
 
 {
-   public override void change_color()
+   public override Color change_color()
    {
-      color.GetComponent<Image>().color = new Color32(139,69,19,255);
+      return  new Color32(139,69,19,255);
    }
 
 }
