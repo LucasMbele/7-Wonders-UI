@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Circus
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Circus
+  effect: {fileID: 21300000, guid: f412b32e79917a341b5dc8d0d3204af2, type: 3}
+  costeffect: {fileID: 21300000, guid: d82d5c8d1da213146abd3c836a369228, type: 3}

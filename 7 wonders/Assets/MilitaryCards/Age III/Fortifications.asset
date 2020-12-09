@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Fortifications
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Fortifications
+  effect: {fileID: 21300000, guid: f412b32e79917a341b5dc8d0d3204af2, type: 3}
+  costeffect: {fileID: 21300000, guid: e22d97e5dbfb3684e8d54581187102d6, type: 3}

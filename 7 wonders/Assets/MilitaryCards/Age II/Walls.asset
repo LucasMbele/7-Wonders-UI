@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Walls
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Walls
+  effect: {fileID: 21300000, guid: 02e0763c3b1502e4db89f6896778976c, type: 3}
+  costeffect: {fileID: 21300000, guid: 5ef52795883395a46860ff38cce784fa, type: 3}

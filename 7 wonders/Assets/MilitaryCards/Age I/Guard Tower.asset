@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Guard Tower
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Guard Tower
+  effect: {fileID: 21300000, guid: 7299ee232b8682645a427aaca9e109b0, type: 3}
+  costeffect: {fileID: 21300000, guid: 124c948a83daa4743b8624256537ec13, type: 3}

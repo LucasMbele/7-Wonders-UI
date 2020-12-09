@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Town Hall
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Town Hall
+  effect: {fileID: 21300000, guid: 945b2d304d0ae654ebf0b25311c3d909, type: 3}
+  costeffect: {fileID: 21300000, guid: de8c557f40bc4f84bb3e2d0651187d02, type: 3}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Press
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
+  cardname: Press
+  effect: {fileID: 21300000, guid: 84568a384036ecf42800cbd82cf5cc70, type: 3}
   costeffect: {fileID: 0}

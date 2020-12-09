@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GlassWorks
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
+  cardname: GlassWorks
+  effect: {fileID: 21300000, guid: 4122ab1ffd56f8240a97392fd587cba6, type: 3}
   costeffect: {fileID: 0}

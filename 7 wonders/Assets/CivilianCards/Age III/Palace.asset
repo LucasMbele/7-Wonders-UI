@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Palace
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Palace
+  effect: {fileID: 21300000, guid: 61d301f328e46734480a0e9b00f52d2e, type: 3}
+  costeffect: {fileID: 21300000, guid: 24fde2faccb76b443913a6880731b170, type: 3}

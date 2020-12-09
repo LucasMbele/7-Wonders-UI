@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Statue
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Statue
+  effect: {fileID: 21300000, guid: 0f21558346434304a9379246f588c5de, type: 3}
+  costeffect: {fileID: 21300000, guid: 82d3699cb6e0ffc439fb78b2ff778030, type: 3}

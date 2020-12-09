@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Arsenal
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Arsenal
+  effect: {fileID: 21300000, guid: f412b32e79917a341b5dc8d0d3204af2, type: 3}
+  costeffect: {fileID: 21300000, guid: 1be4b1c622cb1f543b933b4c616541df, type: 3}

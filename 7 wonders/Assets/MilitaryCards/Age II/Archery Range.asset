@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1e1900dd60bc294a8904c490547a542, type: 3}
-  m_Name: Archery Ange
+  m_Name: Archery Range
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Archery Range
+  effect: {fileID: 21300000, guid: 02e0763c3b1502e4db89f6896778976c, type: 3}
+  costeffect: {fileID: 21300000, guid: 1371e34592412db499dfced9ce8cec3d, type: 3}

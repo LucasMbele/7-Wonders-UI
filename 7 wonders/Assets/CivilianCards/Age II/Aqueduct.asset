@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64b87b8c785eafd48a1f5e996e4575fe, type: 3}
-  m_Name: CivilianCard
+  m_Name: Aqueduct
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Aqueduct
+  effect: {fileID: 21300000, guid: c8f062003f8e483478cbd614e26b80d5, type: 3}
+  costeffect: {fileID: 21300000, guid: 5ef52795883395a46860ff38cce784fa, type: 3}

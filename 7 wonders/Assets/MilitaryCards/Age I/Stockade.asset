@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd3b4af5319598049b77d50b74ca9657, type: 3}
-  m_Name: MilitaryCard
+  m_Name: Stockade
   m_EditorClassIdentifier: 
   color: {fileID: 0}
-  cardname: 
-  effect: {fileID: 0}
-  costeffect: {fileID: 0}
+  cardname: Stockade
+  effect: {fileID: 21300000, guid: 7299ee232b8682645a427aaca9e109b0, type: 3}
+  costeffect: {fileID: 21300000, guid: 1d083372a5c604f4caf3ed459043872e, type: 3}
